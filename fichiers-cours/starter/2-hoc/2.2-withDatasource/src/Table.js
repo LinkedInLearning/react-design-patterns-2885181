@@ -1,4 +1,4 @@
-import withDataSource from "./withDatasource";
+//import
 
 const Row = ({ url, logo, name }) => (
   <tr>

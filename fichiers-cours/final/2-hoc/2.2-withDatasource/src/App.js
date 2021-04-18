@@ -1,16 +1,15 @@
+import Grid from "./Grid";
+import Table from "./Table";
 
-import Grid from './Grid';
-import Table from './Table';
-
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <h1>Les libraries Javascript</h1>
       <header className="App-header">
-        <div style={{ width: '50%' }}>
-          <Table />
+        <div style={{ width: "50%" }}>
+          <Grid library="React" />
         </div>
       </header>
     </div>

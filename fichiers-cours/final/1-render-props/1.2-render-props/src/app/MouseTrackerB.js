@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import reactLogo from "../svg/react-logo.svg";
+import angularLogo from "../svg/angular-logo.svg";
 import "./App.css";
 
-const MouseTracker = () => {
+const MouseTrackerA = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const handleOnMouseMove = (event) => {
     setPosition({
@@ -18,7 +18,7 @@ const MouseTracker = () => {
     <div className="App">
       <header className="App-header" onMouseMove={handleOnMouseMove}>
         <img
-          src={reactLogo}
+          src={angularLogo}
           className="App-logo"
           alt="logo"
           style={{ position: "absolute", left: position.x, top: position.y }}
@@ -38,4 +38,4 @@ const MouseTracker = () => {
     </div>
   );
 };
-export default MouseTracker;
+export default MouseTrackerA;

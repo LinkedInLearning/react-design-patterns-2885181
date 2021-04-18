@@ -1,4 +1,4 @@
-import withDataSource from "./withDatasource";
+//import
 
 const Card = ({ url, logo, name }) => (
   <div className="card col-md-4 mr-3">

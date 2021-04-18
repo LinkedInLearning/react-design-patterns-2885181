@@ -9,7 +9,7 @@ function App() {
       <h1>Les libraries Javascript</h1>
       <header className="App-header">
         <div style={{ width: "50%" }}>
-          <Table items={items} />
+          <Table items={[]} />
         </div>
       </header>
     </div>

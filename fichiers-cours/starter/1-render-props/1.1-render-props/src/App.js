@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+eeimport { useState, useEffect } from "react";
 import reactLogo from "./svg/react-logo.svg";
 import angularLogo from "./svg/angular-logo.svg";
 import "./App.css";
@@ -15,7 +15,7 @@ const MouseTracker = () => {
   return (
     <header className="App-header">
       <img
-        src={reactLogo}
+        src={reactLogo}ee
         className="App-logo"
         alt="logo"
         style={{ position: "absolute", left: position.x, top: position.y }}
