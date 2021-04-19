@@ -24,11 +24,11 @@ const ReactLibrary = () => {
             </p>
             <a
               className="App-link"
-              href="https://reactjs.org"
+              href={library.url}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn {library}
+              Learn {library.name}
             </a>
           </>
         );

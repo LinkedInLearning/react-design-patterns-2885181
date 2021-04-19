@@ -39,7 +39,7 @@ const MouseTrackerWithLogo = ({ data, library }) => {
   }, [position]);
 
   const values = useMemo(() => {
-    return { position: position, library: library.name };
+    return { position, library };
   }, [position]);
   return (
     <div className="App">
