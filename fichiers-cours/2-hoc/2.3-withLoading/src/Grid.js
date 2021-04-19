@@ -22,4 +22,5 @@ const Grid = ({ items }) => (
   </div>
 );
 
-export default withDataSource(Grid);
+const GridWithLoading = withLoading(Grid);
+export default withDataSource(GridWithLoading);
