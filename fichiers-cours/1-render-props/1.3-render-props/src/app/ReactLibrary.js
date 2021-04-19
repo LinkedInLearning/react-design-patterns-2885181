@@ -4,6 +4,17 @@ import reactLogo from "../svg/react-logo.svg";
 import "./App.css";
 
 const ReactLibrary = () => {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const handleOnMouseMove = (event) => {
+    setPosition({
+      x: event.clientX,
+      y: event.clientY,
+    });
+  };
+  useEffect(() => {
+    console.log(position);
+  }, [position]);
+
   return (
     <div className="App">
       <header className="App-header" onMouseMove={handleOnMouseMove}>
