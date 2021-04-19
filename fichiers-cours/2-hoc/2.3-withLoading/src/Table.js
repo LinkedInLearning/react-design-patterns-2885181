@@ -29,4 +29,5 @@ const Table = ({ items }) => (
   </table>
 );
 
-export default withDataSource(Table);
+const GridWithLoading = withLoading(Table);
+export default withDataSource(GridWithLoading);
