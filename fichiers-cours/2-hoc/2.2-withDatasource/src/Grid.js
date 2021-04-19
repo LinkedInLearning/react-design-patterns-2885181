@@ -1,4 +1,4 @@
-//import
+import withDataSource from "./withDatasource";
 
 const Card = ({ url, logo, name }) => (
   <div className="card col-md-4 mr-3">
@@ -16,9 +16,9 @@ const Card = ({ url, logo, name }) => (
 const Grid = ({ items }) => (
   <div className="d-flex justify-content-center" style={{ width: "100%" }}>
     {items.map((value) => {
-      return <Card {...value} />;
+      return <Card {...value} kry={value.name} />;
     })}
   </div>
 );
 
-export default Grid;
+export default withDataSource(Grid);

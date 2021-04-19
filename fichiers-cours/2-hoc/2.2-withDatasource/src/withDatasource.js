@@ -24,7 +24,11 @@ const withDataSource = (Component) => (props) => {
       style: { background: "#1976d2" },
     },
   };
-  const items = Object.values(libraries);
+  const items = useMemo(() => {
+    return !!props.library
+      ? [libraries[props.library]]
+      : Object.values(libraries);
+  }, [props.library]);
   return <Component items={items} />;
 };
 export default withDataSource;
