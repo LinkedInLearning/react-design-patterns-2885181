@@ -27,24 +27,24 @@ const withLibrary = (Component) => (props) => {
   return <Component {...libraries[props.library]} />;
 };
 
-function App() {
+function App({ url, name, logo }) {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={reactLogo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org/"
+          href={url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn {name}
         </a>
       </header>
     </div>
   );
 }
-export default App;
+export default withLibrary(App);
