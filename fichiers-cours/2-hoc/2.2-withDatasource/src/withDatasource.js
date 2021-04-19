@@ -24,6 +24,7 @@ const withDataSource = (Component) => (props) => {
       style: { background: "#1976d2" },
     },
   };
-  return <Component items={libraries} />;
+  const items = Object.values(libraries);
+  return <Component items={items} />;
 };
 export default withDataSource;

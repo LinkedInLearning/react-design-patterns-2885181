@@ -1,4 +1,4 @@
-//import
+import withDataSource from "./withDatasource";
 
 const Row = ({ url, logo, name }) => (
   <tr>
@@ -28,4 +28,4 @@ const Table = ({ items }) => (
   </table>
 );
 
-export default Table;
+export default withDataSource(Table);
