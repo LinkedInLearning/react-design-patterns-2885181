@@ -27,6 +27,20 @@ export let libraries = {
 
 const MouseTrackerWithLogo = ({ data, library }) => {
   // logique encapsulé ici
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const handleOnMouseMove = (event) => {
+    setPosition({
+      x: event.clientX,
+      y: event.clientY,
+    });
+  };
+  useEffect(() => {
+    console.log(position);
+  }, [position]);
+
+  const values = useMemo(() => {
+    return { position: position, library: library.name };
+  }, [position]);
   return (
     <div className="App">
       <header
@@ -34,7 +48,7 @@ const MouseTrackerWithLogo = ({ data, library }) => {
         onMouseMove={handleOnMouseMove}
         style={library.style}
       >
-        {/* props de rendu */}
+        {data(values)}
       </header>
     </div>
   );
