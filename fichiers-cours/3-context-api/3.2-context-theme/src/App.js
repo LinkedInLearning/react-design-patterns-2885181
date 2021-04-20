@@ -1,11 +1,8 @@
-// import useContext
 // import ThemeContext
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  // useContext
-
   const style = useMemo(() => {}, []);
   const buttonStyle = useMemo(() => {}, []);
   return (
