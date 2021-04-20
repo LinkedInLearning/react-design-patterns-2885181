@@ -1,5 +1,5 @@
 // import ThemeContext
-import ThemeProvider, { ThemeContext, THEME } from "./ThemeContext";
+import { ThemeContext, THEME } from "./ThemeContext";
 import { useMemo } from "react";
 import logo from "./logo.svg";
 import "./App.css";

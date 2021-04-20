@@ -1,4 +1,4 @@
-import { useContext, useMemo } from "react";
+import { useMemo, useContext } from "react";
 import { ThemeContext } from "./ThemeContext";
 import logo from "./logo.svg";
 import "./App.css";
@@ -9,11 +9,11 @@ const THEME = {
 };
 function App() {
   // useContext
-  const style = {};
-  const buttonStyle = {};
+  const style = useMemo(() => {}, []);
+  const buttonStyle = useMemo(() => {}, []);
   return (
     <div className="App">
-      <header className="App-header" style={style}>
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -27,12 +27,7 @@ function App() {
           Learn React
         </a>
         <br />
-        <button
-          onClick={() => {}}
-          style={{ ...buttonStyle, padding: "10px 20px", fontSize: 20 }}
-        >
-          {on ? "Off" : "On"}
-        </button>
+        <button style={{ padding: "10px 20px", fontSize: 20 }}>On</button>
       </header>
     </div>
   );
