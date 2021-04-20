@@ -9,8 +9,9 @@ const THEME = {
 };
 function App() {
   // useContext
-  const style = {};
-  const buttonStyle = {};
+  const { on, updateTheme } = useContext(ThemeContext);
+  const style = useMemo(() => (on ? THEME.light : THEME.dark), [on]);
+  const buttonStyle = useMemo(() => (!on ? THEME.light : THEME.dark), [on]);
   return (
     <div className="App">
       <header className="App-header" style={style}>
@@ -28,7 +29,7 @@ function App() {
         </a>
         <br />
         <button
-          onClick={() => {}}
+          onClick={updateTheme}
           style={{ ...buttonStyle, padding: "10px 20px", fontSize: 20 }}
         >
           {on ? "Off" : "On"}
