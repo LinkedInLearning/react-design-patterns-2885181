@@ -27,7 +27,7 @@ function App() {
               </a>
               <br />
               <button
-                on
+                onClick={() => {}}
                 style={{ ...buttonStyle, padding: "10px 20px", fontSize: 20 }}
               >
                 On
