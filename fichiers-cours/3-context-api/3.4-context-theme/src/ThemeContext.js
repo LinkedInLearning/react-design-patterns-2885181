@@ -17,5 +17,12 @@ const ThemeProvider = ({ children }) => {
 };
 
 // HOC
+export const withContext = (Component) => () => {
+  return (
+    <ThemeContext.Consumer>
+      {(value) => <Component {...value} />}
+    </ThemeContext.Consumer>
+  );
+};
 
 export default ThemeProvider;

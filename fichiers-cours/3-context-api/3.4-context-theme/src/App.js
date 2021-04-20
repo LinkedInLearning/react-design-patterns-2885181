@@ -1,5 +1,5 @@
 import { useMemo, useContext } from "react";
-import { ThemeContext } from "./ThemeContext";
+import { ThemeContext, withContext } from "./ThemeContext";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -7,8 +7,7 @@ const THEME = {
   light: { background: "#ecf0f1", color: "#282c34" },
   dark: { background: "#282c34", color: "#ecf0f1" },
 };
-function App() {
-  const { on, updateTheme } = useContext(ThemeContext);
+function App({ on, updateTheme }) {
   const style = useMemo(() => {
     return on ? THEME.light : THEME.dark;
   }, [on]);
@@ -41,4 +40,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default withContext(App);
