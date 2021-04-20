@@ -1,16 +1,17 @@
 // import ThemeContext
-import ThemeProvider, { ThemeContext } from "./ThemeContext";
+import ThemeProvider, { ThemeContext, THEME } from "./ThemeContext";
 import { useMemo } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const style = useMemo(() => {}, []);
-  const buttonStyle = useMemo(() => {}, []);
+  const handleOnChange = (bool) => (bool ? THEME.light : THEME.dark);
   return (
     <div className="App">
       <ThemeContext.Consumer>
         {({ on, updateTheme }) => {
+          const style = handleOnChange(on);
+          const buttonStyle = handleOnChange(!on);
           return (
             <header className="App-header" style={style}>
               <img src={logo} className="App-logo" alt="logo" />
@@ -27,7 +28,7 @@ function App() {
               </a>
               <br />
               <button
-                on
+                onClick={updateTheme}
                 style={{ ...buttonStyle, padding: "10px 20px", fontSize: 20 }}
               >
                 On
