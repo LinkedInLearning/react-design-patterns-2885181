@@ -5,6 +5,13 @@ const THEME = {
   dark: { background: "#282c34", color: "#ecf0f1" },
 };
 
+export const ThemeContext = createContext(THEME.dark);
+
 //Provider
+const ThemeProvider = ({ children }) => {
+  return <ThemeContext.Provider>{children}</ThemeContext.Provider>;
+};
 
 //Consumer
+
+export default ThemeProvider;
