@@ -7,12 +7,14 @@ const THEME = {
   dark: { background: "#282c34", color: "#ecf0f1" },
 };
 //create context
+const ThemeContext = createContext(THEME.light);
 
 function App() {
   // use context (hook)
+  const style = useContext(ThemeContext);
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" style={style}>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
