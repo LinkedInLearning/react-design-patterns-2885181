@@ -1,4 +1,5 @@
 // import ThemeContext
+import { useMemo } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -22,7 +23,7 @@ function App() {
         </a>
         <br />
         <button
-          onClick={() => {}}
+          on
           style={{ ...buttonStyle, padding: "10px 20px", fontSize: 20 }}
         >
           On
