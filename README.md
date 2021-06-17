@@ -11,7 +11,7 @@ Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pou
 ## Branches 
 
 Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : CHAPITRE#_VIDEO#. Par exemple, la branche nommée 02_03 correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche 02_03b (biginning) correspond au code du début de la vidéo.  
+La branche 02_03b (beginning) correspond au code du début de la vidéo.  
 La branche 02_03e (ending) correspond au code à la fin de la vidéo.  
 La branche master correspond au code à la fin de la formation. 
 
