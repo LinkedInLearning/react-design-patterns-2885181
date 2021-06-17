@@ -1,4 +1,4 @@
-# React Design Patterns
+# React : Design Patterns
 
 Ce dossier Repository est lié au cours [COURSENAME]. Le cours est accessible sur LinkedIn Learning. 
 
