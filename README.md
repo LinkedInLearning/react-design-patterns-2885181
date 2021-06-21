@@ -12,8 +12,3 @@ Les branches sont structurées de manière à correspondre aux vidéos du cours.
 La branche `02_03b (beginning)` correspond au code du début de la vidéo.  
 La branche `02_03e (ending)` correspond au code à la fin de la vidéo.  
 La branche master correspond au code à la fin de la formation. 
-
-
-[0]: # "Replace these placeholder URLs with actual course URLs"
-[lil-course-url]: https://www.linkedin.com/learning/react-design-patterns
-[lil-thumbnail-url]: http://
