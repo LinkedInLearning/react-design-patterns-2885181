@@ -1,6 +1,6 @@
 # React : Design Patterns
 
-Ce dossier Repository est lié au cours [React : Design Patterns]. Le cours est accessible sur LinkedIn Learning. 
+Ce dossier Repository est lié au cours [React : Design Patterns][lil-course-url]. Le cours est accessible sur LinkedIn Learning. 
 
 ## Instructions 
 
@@ -15,5 +15,5 @@ La branche master correspond au code à la fin de la formation.
 
 
 [0]: # "Replace these placeholder URLs with actual course URLs"
-[lil-course-url]: https://www.linkedin.com/learning/
+[lil-course-url]: https://www.linkedin.com/learning/react-design-patterns
 [lil-thumbnail-url]: http://
