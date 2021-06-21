@@ -1,6 +1,6 @@
 # React : Design Patterns
 
-Ce dossier Repository est lié au cours [React : Design Patterns][lil-course-url]. Le cours est accessible sur [LinkedIn Learning](www.linkedin.com/learning). 
+Ce dossier Repository est lié au cours React : Design Patterns. Le cours est accessible sur [LinkedIn Learning](https://www.linkedin.com/learning/react-design-patterns). 
 
 ## Instructions 
 
