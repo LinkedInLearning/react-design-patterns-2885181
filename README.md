@@ -1,27 +1,16 @@
-# FR_3146 : React Design Patterns
+# React : Design Patterns
 
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours React : Design Patterns. Le cours est accessible sur [LinkedIn Learning](https://www.linkedin.com/learning/react-design-patterns-10416007).
 
-![course-name-alt-text][lil-thumbnail-url]
+Dans cette formation qui s'adresse aux développeurs d'application web, vous découvrirez l'usage des design patterns de la bibliothèque React. En compagnie de Sandy Ludosky, vous découvrirez en quoi consistent les design patterns, comment ils permettent de partager et composer le code, et comment assurer la maintenabilité et la scalabilité. Puis, toujours avec des exemples concrets, vous aborderez les props de rendu, la mise en œuvre des composants d'ordre supérieur (HOC) et des interfaces de programmation (API). À la fin de cette formation, vous aurez assimilé toutes les bonnes pratiques pour vos projets React.
 
-_See the readme file in the main branch for updated instructions and information._
+## Instructions 
 
-## Instructions
+Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
 
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+## Branches 
 
-## Branches
-
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter.
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-## Installing
-
-1. To use these exercise files, you must have the following installed:
-   - [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
-
-[0]: # "Replace these placeholder URLs with actual course URLs"
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée `02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
+La branche `02_03b (beginning)` correspond au code du début de la vidéo.  
+La branche `02_03e (ending)` correspond au code à la fin de la vidéo.  
+La branche master correspond au code à la fin de la formation. 
