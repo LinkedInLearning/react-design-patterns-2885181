@@ -2,6 +2,8 @@
 
 Ce dossier Repository est lié au cours React : Design Patterns. Le cours est accessible sur [LinkedIn Learning](https://www.linkedin.com/learning/react-design-patterns-10416007).
 
+![tn-url]
+
 Dans cette formation qui s'adresse aux développeurs d'application web, vous découvrirez l'usage des design patterns de la bibliothèque React. En compagnie de Sandy Ludosky, vous découvrirez en quoi consistent les design patterns, comment ils permettent de partager et composer le code, et comment assurer la maintenabilité et la scalabilité. Puis, toujours avec des exemples concrets, vous aborderez les props de rendu, la mise en œuvre des composants d'ordre supérieur (HOC) et des interfaces de programmation (API). À la fin de cette formation, vous aurez assimilé toutes les bonnes pratiques pour vos projets React.
 
 ## Instructions 
@@ -14,3 +16,6 @@ Les branches sont structurées de manière à correspondre aux vidéos du cours.
 La branche `02_03b (beginning)` correspond au code du début de la vidéo.  
 La branche `02_03e (ending)` correspond au code à la fin de la vidéo.  
 La branche master correspond au code à la fin de la formation. 
+
+
+[tn-url]: https://media-exp1.licdn.com/dms/image/C4D0DAQEkyBF9pJEZ6A/learning-public-crop_675_1200/0/1623226047359?e=1646960400&v=beta&t=H2Xt_Z-aa4iyjbynjdEfIwsPENdGh0F_0GCp4hC-96I
