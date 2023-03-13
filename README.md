@@ -18,4 +18,4 @@ La branche `02_03e (ending)` correspond au code à la fin de la vidéo.
 La branche master correspond au code à la fin de la formation. 
 
 
-[tn-url]: https://media-exp1.licdn.com/dms/image/C4D0DAQEkyBF9pJEZ6A/learning-public-crop_675_1200/0/1623226047359?e=1646960400&v=beta&t=H2Xt_Z-aa4iyjbynjdEfIwsPENdGh0F_0GCp4hC-96I
+[tn-url]: https://cdn.lynda.com/course/2885181/2885181-1623225817940-16x9.jpg
