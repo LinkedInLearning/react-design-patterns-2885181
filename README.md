@@ -6,6 +6,8 @@ Ce dossier Repository est lié au cours React : Design Patterns. Le cours est ac
 
 Dans cette formation qui s'adresse aux développeurs d'application web, vous découvrirez l'usage des design patterns de la bibliothèque React. En compagnie de Sandy Ludosky, vous découvrirez en quoi consistent les design patterns, comment ils permettent de partager et composer le code, et comment assurer la maintenabilité et la scalabilité. Puis, toujours avec des exemples concrets, vous aborderez les props de rendu, la mise en œuvre des composants d'ordre supérieur (HOC) et des interfaces de programmation (API). À la fin de cette formation, vous aurez assimilé toutes les bonnes pratiques pour vos projets React.
 
+La meilleure façon d'apprendre un langage est de l'utiliser dans la pratique. C'est pourquoi ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. 
+
 ## Instructions 
 
 Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
